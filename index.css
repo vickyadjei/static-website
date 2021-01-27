@@ -82,17 +82,6 @@
 .banner-txt h3 a:hover{
 	background-color: blue;
 }
-.footer{
-	position: relative;
-	bottom: 0px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 9px;
-	background-color: #51ff4f;
-	z-index: 50;
-	height: 7vh;
-}
 .main{
 	margin:7%;
 	align-items: center;
@@ -107,8 +96,48 @@
 	padding-bottom: 10%;
 	
 }
-.icon-txt{
+.icon{
+	max-width: 1200px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit , 300px);
-	width: 100%;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+.icon-item{
+	height: 400px;
+	padding: 10px;
+	background-color: whitesmoke;
+	align-items: center;
+	font-family: sans-serif;
+}
+.icon-item img{
+	padding-top: 40px;
+	width: 50px;
+	height: 50px;
+}
+.icon-item h3{
+	color: #ff7100;
+	font-size: 17px;
+	font-weight:800;
+}
+.icon-item p{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-weight: 600;
+	font-size:15px;
+	color:grey;
+	line-height: 2;
+}
+.icon-txt{
+	
+}
+.footer{
+	position: relative;
+	bottom: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 9px;
+	background-color: #51ff4f;
+	z-index: 50;
+	height: 7vh;
 }
